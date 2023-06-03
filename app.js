@@ -24,7 +24,7 @@ app.listen(port, () => {
 
 })
 
-app.get('/index', (req, res) => {
+app.get('/indextest', (req, res) => {
     const data = {
         message: '¡Hola, raiz!',
       };
